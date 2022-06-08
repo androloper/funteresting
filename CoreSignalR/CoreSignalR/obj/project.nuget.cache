@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "U7SK/DWkabUBJup0PKKRSqBTNeGZz0NWZORDew6x2cG7//+MspZsSIJNFLm+xArE6jSIxLrizXOO90QvoMB4Qg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yemuser\\Desktop\\KilicCoreSignalR\\CoreSignalR\\CoreSignalR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yemuser\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
