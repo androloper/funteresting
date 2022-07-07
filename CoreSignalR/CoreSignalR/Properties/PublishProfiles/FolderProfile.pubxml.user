@@ -4,7 +4,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\yemuser\source\repos\CoreSignalR\CoreSignalR\bin\Release\net5.0\publish\</_PublishTargetUrl>
-    <History>True|2022-03-07T11:39:27.0704381Z;True|2022-03-02T15:45:06.2698359+03:00;True|2022-03-02T10:54:27.1460658+03:00;True|2022-02-28T19:51:37.1694426+03:00;True|2022-02-28T19:47:44.4942845+03:00;True|2022-02-28T18:21:46.3500718+03:00;True|2022-02-28T17:16:39.3547219+03:00;True|2022-02-28T17:05:44.7875232+03:00;True|2022-02-28T16:57:25.6409462+03:00;</History>
+    <_PublishTargetUrl>C:\Users\yemuser\Desktop\KilicCoreSignalR\CoreSignalR\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2022-06-08T08:17:40.1290825Z;True|2022-03-07T14:39:27.0704381+03:00;True|2022-03-02T15:45:06.2698359+03:00;True|2022-03-02T10:54:27.1460658+03:00;True|2022-02-28T19:51:37.1694426+03:00;True|2022-02-28T19:47:44.4942845+03:00;True|2022-02-28T18:21:46.3500718+03:00;True|2022-02-28T17:16:39.3547219+03:00;True|2022-02-28T17:05:44.7875232+03:00;True|2022-02-28T16:57:25.6409462+03:00;</History>
   </PropertyGroup>
 </Project>

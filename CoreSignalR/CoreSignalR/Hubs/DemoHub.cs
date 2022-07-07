@@ -11,10 +11,10 @@ namespace CoreSignalR.Hubs
     public class DemoHub : Hub
     {
 
-        public void SendValues(string strValueList)
+        public async Task SendValues(string strValueList)
         {
 
-            Clients.All.SendAsync("ReceiveValues", strValueList);
+            await Clients.All.SendAsync("ReceiveValues", strValueList);
 
             Startup.tempValues.Clear();
             Startup.tempValues = JsonConvert.DeserializeObject<List<TagItemModel>>(strValueList);
@@ -37,7 +37,7 @@ namespace CoreSignalR.Hubs
         {
             //await SendValues(JsonConvert.SerializeObject(Startup.lastValues));
             var connectionId = Context.ConnectionId;
-            await Clients.Client(connectionId).SendAsync("ReceiveValues", JsonConvert.SerializeObject(Startup.lastValues));
+            await Clients.Client(connectionId).SendAsync("GetItemAll", JsonConvert.SerializeObject(Startup.lastValues));
         }
     }
 }

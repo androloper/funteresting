@@ -70,7 +70,7 @@ namespace CoreSignalR
             {
                 endpoints.MapRazorPages();
                 //endpoints.MapHub<ChatHub>("/chatHub");
-                endpoints.MapHub<KilicHub>("/demoHub");
+                endpoints.MapHub<DemoHub>("/demoHub");
             });
         }
     }
